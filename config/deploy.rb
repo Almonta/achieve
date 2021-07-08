@@ -4,7 +4,7 @@ lock '3.6.0'
 set :application, 'achieve'
 # cloneするgitのレポジトリ
 # （xxxxxxxx：ユーザ名、yyyyyyyy：アプリケーション名）
-set :repo_url, 'https://github.com/Almonta/210708_AWS.git'
+set :repo_url, 'git@github.com:Almonta/achieve.git'#'https://github.com/Almonta/210708_AWS.git'
 # deployするブランチ。デフォルトでmainを使用している場合、masterをmainに変更してください。
 set :branch, ENV['BRANCH'] || 'master'
 # deploy先のディレクトリ。
